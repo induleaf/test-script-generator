@@ -15,26 +15,26 @@ if (typeof leafconnect_api == 'undefined') {
 var domainVendorConfig = {
   "domain1.one": {
     "FB": true,
+    "FBID": "asdfasf",
     "GA4": true,
-    "GA4ID": "G-QC2R6N47SR",
+    "GA4ID": "ga4id",
     "GADS": true,
-    "GADSID": "AW-16733937504",
-    "GADSPV": "uABpCJuF6fIZEOC-rqs-",
-    "GADSVI": "Sc7LCJ6F6fIZEOC-rqs-",
-    "GADSATC": "W-ZvCJWF6fIZEOC-rqs-",
-    "GADSIC": "HwINCJiF6fIZEOC-rqs-",
-    "GADSP": "ZRi6CJKF6fIZEOC-rqs-",
+    "GADSID": "googleadid",
+    "GADSPV": "pageviewid",
+    "GADSVI": "itemviewid",
+    "GADSATC": "addtocartid",
+    "GADSIC": "checkouid",
+    "GADSP": "purchasecoversionid",
     "PT": true,
-    "PTID": "2613625049372",
+    "PTID": "",
     "TT": true,
-    "TTID": "MWZiM2GlMNNjMw",
+    "TTID": "",
     "CMV2": true,
     "GTM": true,
-    "GTMID": "GTM-KQX5BSXM"
+    "GTMID": ""
   },
   "domain2.two": {
     "FB": true,
-    "FBID": "pixelid2",
     "GA4": true,
     "GA4ID": "ga42",
     "GADS": true,
@@ -54,7 +54,6 @@ var domainVendorConfig = {
   },
   "domain3.three": {
     "FB": true,
-    "FBID": "asdfasdf3",
     "GA4": true,
     "GA4ID": "ga43",
     "GADS": true,
@@ -74,7 +73,6 @@ var domainVendorConfig = {
   },
   "domain4.four": {
     "FB": true,
-    "FBID": "asdf_4",
     "GA4": true,
     "GA4ID": "ga44",
     "GADS": true,
@@ -94,7 +92,6 @@ var domainVendorConfig = {
   },
   "domain5.five": {
     "FB": true,
-    "FBID": "asdfsdf",
     "GA4": true,
     "GA4ID": "ga45",
     "GADS": true,
@@ -114,7 +111,6 @@ var domainVendorConfig = {
   },
   "domain6.six": {
     "FB": true,
-    "FBID": "asdf",
     "GA4": true,
     "GA4ID": "ga4_6",
     "GADS": true,
@@ -134,7 +130,6 @@ var domainVendorConfig = {
   },
   "domain7.seven": {
     "FB": true,
-    "FBID": "asdf",
     "GA4": true,
     "GA4ID": "ga4_7",
     "GADS": true,
@@ -154,7 +149,6 @@ var domainVendorConfig = {
   },
   "domain8.eight": {
     "FB": true,
-    "FBID": "sdafasdf",
     "GA4": true,
     "GA4ID": "ga4_8",
     "GADS": true,
@@ -174,7 +168,6 @@ var domainVendorConfig = {
   },
   "domain9.nine": {
     "FB": true,
-    "FBID": "asdf",
     "GA4": true,
     "GA4ID": "ga4_9",
     "GADS": true,
@@ -194,7 +187,6 @@ var domainVendorConfig = {
   },
   "domain10.ten": {
     "FB": true,
-    "FBID": "asdf",
     "GA4": true,
     "GA4ID": "ga4_10",
     "GADS": true,
