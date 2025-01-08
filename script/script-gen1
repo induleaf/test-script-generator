@@ -1,7 +1,4 @@
 
-window.leafconnect_analytics = analytics;
-window.leafconnect_browser = browser;
-  
 if (typeof leafconnect_analytics == 'undefined') {
   leafconnect_analytics = {};
 }
